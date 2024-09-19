@@ -1,0 +1,138 @@
+.a {
+    font-family: "Protest Guerrilla", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a:link,
+a:visited {
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    background-color: silver;
+}
+
+nav {
+    padding: 5px 0px 5px 0px;
+    margin:0px;
+    background: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+h1 {
+    background: black;
+    color: white;
+    font-size: 70px;
+    margin: 0px 0px 0px 0px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+h2 {
+    margin: 0px 0px 0px 664px;
+    width: 500px;
+    border-style: solid;
+    border-color: black;
+    border-width: 6px;
+    background-color: silver;
+    text-align: center;
+}
+
+ul {
+    font-size: 25px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+li {
+    margin: 0px
+}
+
+#top {
+    background:black;
+    width: 608px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    padding: 0px;
+}
+
+.youtube {
+    margin: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: silver;
+    padding: 10px;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#po {
+    width: 340px;
+}
+
+#pt {
+    width: 300px;
+}
+
+#ph {
+    width: 300px;
+}
+
+#pf {
+    width: 445px;
+}
+
+#pv {
+    width: 351px;
+}
+
+.list {
+    color: silver;
+    border-style: solid;
+    border-color: black;
+    border-width: 6px;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+#bod {
+    display: flex;
+    flex-direction: row;
+}
+
+#icon {
+    height:111px;
+    background:black;
+}
+
+header {
+display:flex;
+flex-direction:row;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  footer {
+    background:black;
+  }

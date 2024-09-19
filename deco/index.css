@@ -1,0 +1,149 @@
+main {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.a {
+    font-family: "Protest Guerrilla", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.b {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
+#sp {
+    margin: 0px 0px 0px 300px;
+    width: 990px;
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    background-color: silver;
+}
+
+#tp {
+    float: right;
+    margin: 0px 0px 0px 0px;
+    width: 1000px;
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    background-color: silver;
+}
+
+header {
+    margin: 0px 1090px 0px 0px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px 10px 10px 10px;
+}
+
+nav {
+    margin-right: 0px;
+    padding: 10px 0px 10px 0px;
+    background: silver;
+    text-align: center;
+    font-size: 15px;
+}
+
+a:link,
+a:visited {
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    background-color: silver;
+}
+
+#one {
+    background: silver;
+    width: 1000px;
+    margin: 0px 700px 0px 0px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+}
+
+.what-text {
+    padding-left: 10px;
+    padding-right: 25px;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: "copperplate", fantasy;
+    color: silver;
+    background-color: black;
+    margin: 0px;
+}
+
+#mech {
+    float: right;
+    margin-bottom: 7px;
+    padding-bottom: 0px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px 0px 8px 8px;
+}
+
+#car-a {
+    float: right;
+    margin: 0px 0px 7px 25px;
+    padding-bottom: 0px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px 0px 8px 8px;
+}
+
+#guy-workin {
+    float: right;
+    margin: 0px 0px 7px 25px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px 0px 8px 8px;
+}
+
+footer {
+    width:1841px;
+    height:250px;
+    background: black;
+}
+
+#ft {
+    width: 500px;
+    height:200px;
+    padding: 8px;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    background: black;
+    color: silver;
+    border-style: solid;
+    border-color: silver;
+    border-width: 2px;
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+}
+
+#videos{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items:center;
+}
